@@ -770,12 +770,13 @@
     }
     
     .social-menu ul {
-      position: absolute;
-      left: 20%;
-      padding: 0;
-      margin: 0;
-      transform: translate(-50%, -50%);
-      display: flex;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      justify-content: space-evenly;
+      justify-items: center;
+      
+    
     }
     
     .social-menu ul li {
@@ -798,7 +799,7 @@
       left: px;
       right: 12px;
       padding-top: 3px;
-      position: relative;
+      /* position: relative; */
       display: block;
       width: 30px;
       height: 30px;
