@@ -52,7 +52,7 @@ function Main() {
                     </div>
                     <p>I manage everything from website navigation and layout to a company’s web hosting and security architecture. My expertise lies within front-end web apps, and the main languages in my tech stack are JavaScript, React, and of course HTML/CSS.</p>
 
-                    <a  href="https://akshitdhakad.github.io/Cv/" target="blank">Download CV</a>
+                    <a  href="https://akshit-cv.vercel.app/" target="blank">Download CV</a>
                     </div>
                 </div>
             </div>
