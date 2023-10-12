@@ -247,8 +247,9 @@
   /*  Home  */
   .home {
       display: flex;
+      
       flex-direction: column;
-      background: url("https://source.unsplash.com/1200x960/?dark,laptops") no-repeat
+      background: url("https://source.unsplash.com/1200x960/?dark,laptops,") no-repeat
         center;
       height: 100vh;
       color: #fff;
@@ -608,8 +609,18 @@
       border: 5px solid #888c8d;
       transition: all 0.3s ease;
     }
+
+    .key-features{
+      font-size: 20px;
+      margin: 5px 0px;
+      
+    }
+
     .myproject-details{
-      font-size: 10px;
+      font-size: 12px;
+      margin: 1px 0px;
+      font-family: "Ubuntu", sans-serif;
+      font-stretch:wider;
     }
     .projects .carousel .card:hover img {
       border-color: #fff;
